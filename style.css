@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: crimson;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.password-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 182px;
+}
+.input-password {
+  width: 260px;
+  height: 42px;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+}
+.password-showing {
+  cursor: pointer;
+}
